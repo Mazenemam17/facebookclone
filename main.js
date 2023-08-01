@@ -35,15 +35,3 @@ function Email_Verify() {
     return true;
   }
 }
-
-
-
-
-
-// function openform(){
-//   document.getElementById("div3").style.width="380px";
-// }
-
-// function closeform(){
-//     document.getElementById("div3").style.width="0px";
-//   }

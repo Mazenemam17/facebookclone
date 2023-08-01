@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+input{
+    outline: none;
+    border: 1px solid rgb(186, 180, 180);
+    border-radius: 5px;
+}
+label{
+    color: #606770;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+.div1{
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.logo{
+    width: auto;    
+    color: #1877f2;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.div2{
+    background-color: white;
+    width: auto;
+    height: 670px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+}
+.form2{
+    display: block;
+    background-color: white;
+    width: 420px;
+    height: 670px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.div2 h2{
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    line-height: 38px;
+    text-align: center;
+    margin-top: 5px;
+}
+.div2 p{
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    font-size: medium;
+    text-align: center;
+    color: #606770;
+    margin-bottom: 15px;
+}
+.div4{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 10px 10px;
+}
+.div4 input{
+    padding: 11px 20px 11px 10px;
+}
+.div5{
+    display: block;
+    margin: 10px 10px 10px;
+}
+.div5 input{
+    width: 100%;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.div6{
+    margin-left: 10px;
+}
+.div6 select{
+    outline: none;
+    border: 1px solid rgb(186, 180, 180);
+    border-radius: 5px;
+    padding: 8px 75px 8px 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.div7{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.div7 span{
+    display: flex;
+}
+.div7 ._5k_2{
+    display: flex;
+    justify-content: space-around;
+    outline: none;
+    border: 1px solid rgb(186, 180, 180);
+    border-radius: 5px;
+    /* padding: 6px 70px 6px 5px; */
+    margin-right: 10px;
+    margin-top: 5px;
+}
+._5k_2 label{
+    box-sizing: border-box;
+    color: #1c1e21;
+    display: inline-block;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 35px;
+    padding: 0 45px 0 10px;
+    width: 100%;
+}
+._5k_2 input{
+    height: 36px;
+    margin-right: 10px;
+}
+.div8 p{
+    color: #606770;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.div9{
+    display: flex;
+    justify-content: center;
+}
+.div9 a{
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: rgb(14, 169, 14);
+    padding: 10px 60px;
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid rgb(14, 169, 14);
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 60px;
+    text-decoration: none;
+}
+.div10{
+    display: flex;
+    justify-content: center;
+}
+.div10 a{
+    color: #1877f2;
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+    margin-top: 30px;
+}

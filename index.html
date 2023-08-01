@@ -9,13 +9,14 @@
     integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="shortcut icon" href="images/facebook.png" >
+    <link rel="shortcut icon" href="images/facebook.png">
 
 
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+    
+    <div class="layer"></div>
 
     <nav>
         <div class="nav-left" >
@@ -51,8 +52,8 @@
 
         <div class="nav-right">
             <div class="profile">
-                <img src="images/WhatsApp Image 2021-09-01 at 9.26.28 AM.jpeg" alt="user">
-                <p>Abdulrahman</p>
+                <img src="images/mazen.jpg" alt="user">
+                <p>MAZEN</p>
             </div>
             
             <a href="#">
@@ -77,8 +78,8 @@
         <div class="left_side">
             <ul>
                 <li>
-                    <img class="userImg" src="images/WhatsApp Image 2021-09-01 at 9.26.28 AM.jpeg" alt="user">
-                    <p>Abdulrahman</p>
+                    <img class="userImg" src="images/mazen.jpg" alt="user">
+                    <p>MAZEN EMAM</p>
                 </li>
                 <li>
                     <img src="images/-XF4FQcre_i.png" alt="Friends">
@@ -159,9 +160,9 @@
         <div class="middle">
             <div class="container">
                 <div class="firstleft  ">
-                    <img class="firstimg" src="images/WhatsApp Image 2021-09-01 at 9.26.28 AM.jpeg" alt="first">
+                    <img class="firstimg" src="images/mazen.jpg" alt="first">
                     <a href="#"><i class="fa-solid fa-plus icons"></i></a>
-                    <p>Make story</p>
+                    <p>Create story</p>
                 </div>
                 <div class="firstleft second2">
                     <a href="#"><img class="small" src="images/pexels-photo-9889915.jpeg" alt="second"></a>
@@ -191,8 +192,8 @@
             <div class="mind">
 
                 <div class="mind2">
-                    <a href="#"> <img class="inmind" src="images/WhatsApp Image 2021-09-01 at 9.26.28 AM.jpeg" alt="hob"></a>
-                    <input type="text" placeholder="What is in your mind Abdulrahman?">
+                    <a href="#"> <img class="inmind" src="images/mazen.jpg" alt="hob"></a>
+                    <input type="text" onclick="show()" placeholder="What's on your mind, MAZEN?">
                 </div>
 
                 
@@ -215,6 +216,56 @@
                 </div>
 
 
+
+            </div>
+
+
+
+            <div class="create">
+
+                <div class="one">
+                    <h2>Create post</h2>
+                    <i class="fa-sharp fa-solid fa-xmark" onclick="hide()" style="color: #423f3f;"></i>
+                </div>
+                <hr>
+                <div class="two">
+                    <div>
+                        <img class="userImg" src="images/mazen.jpg" alt="user">
+                    </div>
+                    <div>
+                        <h6>Mazen EMAM</h6>
+                        <i class="fa-solid fa-earth-africa"> <span>Public</span></i>
+                    </div>
+                </div>
+                <div class="three">
+                    <input type="text" placeholder="What's on your mind, MAZEN?" class="post-input">
+                </div>
+                <div class="four">
+                    <p>Aa</p>
+                    <i class="fa-sharp fa-solid fa-face-smile" style="color: #949494;"></i>
+                </div>
+                <div class="five">
+                    <div>
+                        <h5>Add to your post</h5>
+                    </div>
+                    <div>
+                        <i class="fas fa-images"></i>
+                        <i class="fa-solid fa-user-tag" style="color: #005eff;"></i>
+                        <i class="far fa-laugh"></i>
+                        <i class="fa-sharp fa-solid fa-location-dot" style="color: #ff0000;"></i>
+                        <i class="fa-sharp fa-solid fa-gif" style="color: #31c996;"></i>
+                        <i class="fa-solid fa-ellipsis" style="color: #6e6e6e;"></i>
+                    </div>
+                </div>
+                <div class="six">
+                    <button type="submit" class="post-submit">Post</button>
+                </div>
+
+            </div>
+
+
+
+            <div class="Fpost">
 
             </div>
 
@@ -622,6 +673,6 @@
 
 
 
-    
+    <script src="script.js"></script>
 </body>
 </html>
