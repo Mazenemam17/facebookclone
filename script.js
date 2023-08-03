@@ -5,6 +5,7 @@ function show() {
     createe.classList.toggle("show")
     document.querySelector(".layer").style.display = "block"
     document.querySelector("body").style.overflow = "hidden"
+
 }
 
 // hide mind
@@ -28,9 +29,7 @@ if (localStorage.post != null) {
 }
 
 postSubmit.onclick = function () {
-    let newpost = {
-        post: postInput.value
-    }
+    let newpost = postInput.value
     postsDivs.push(newpost);
     // save localstorage
     localStorage.setItem('post', JSON.stringify(postsDivs))
@@ -51,12 +50,13 @@ function showPost() {
     let postBody = '';
     for (i = 0; i < postsDivs.length; i++) {
         postBody += `
+        <div class="Fpost">
                 <div class="postDetails">
                     <div class="postDetail">
-                        <img src="images\mazen.jpg" alt="">
+                        <img src="images/mazen.jpg" alt="">
                         <div>
                             <h3>Mazen Emam </h3>
-                            <p>1m</p>
+                            <p>1m ago</p>
                         </div>
                     </div>
                     <i class="fas fa-ellipsis-h"></i>
@@ -65,7 +65,7 @@ function showPost() {
                     <p>${postsDivs[i]}</p>
                 </div>
                 <div class="reacts">
-                    <div>
+                    <div class="like">
                         <i class="far fa-thumbs-up"></i>
 
                         <p>Like</p>
@@ -83,8 +83,18 @@ function showPost() {
                     </div>
 
                 </div>
+            </div>
         `
     }
-    document.getElementsByClassName('Fpost').innerHTML = postBody
+    document.querySelector('.neww').innerHTML = postBody
 }
 showPost()
+
+// like
+
+const likes = document.querySelectorAll(".like");
+likes.forEach((like) => {
+    like.onclick = function () {
+        this.classList.toggle("blue");
+    };
+});
