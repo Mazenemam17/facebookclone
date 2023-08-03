@@ -5,7 +5,7 @@ function show() {
     createe.classList.toggle("show")
     document.querySelector(".layer").style.display = "block"
     document.querySelector("body").style.overflow = "hidden"
-
+    window.scrollTo(0 , 0)
 }
 
 // hide mind
